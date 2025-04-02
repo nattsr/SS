@@ -1,5 +1,5 @@
 # =============================================================================================================
-# Stock Screener
+# Trade Screener
 # =============================================================================================================
 # NOTE
 
@@ -11,7 +11,7 @@ import os
 from io import BytesIO
 import copy
 
-time_start      = time.time()
+time_start      = time.time()ß
 timetrack       = {}
 
 # Streamlit
@@ -52,7 +52,7 @@ import pickle
 # =============================================================================================================
 # PAGE SETUP
 st.set_page_config(
-    page_title            = 'stockscreener',
+    page_title            = 'tradescreener',
     page_icon             = ":chart_with_upwards_trend:",
     layout                = 'wide',
     initial_sidebar_state = 'auto',
@@ -647,7 +647,7 @@ for sector in ss.listSector:
   
 # =============================================================================================================
 # SIDEBAR
-choose = option_menu("Stock Screener", ["Summary", "Rubric"],
+choose = option_menu("Trade Screener", ["Summary", "Rubric"],
                                   # icons=["graph-up-arrow", "table", "grid-fill", "person-fill"],
                                   icons=["graph-up-arrow", "table", "grid-fill"],
                               menu_icon="calendar2-check", default_index=0, orientation = "horizontal",
