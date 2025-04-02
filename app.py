@@ -11,7 +11,7 @@ import os
 from io import BytesIO
 import copy
 
-time_start      = time.time()ß
+time_start      = time.time()
 timetrack       = {}
 
 # Streamlit
